@@ -1,3 +1,254 @@
-.title {
-    color: #02ccba;
-  }
+.body {
+  margin: 100%;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #60a3bc;
+  height: 120px;
+  width: 100%;
+}
+
+.header-left {
+  color: #c23616;
+  font-size: 30px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: right;
+  list-style: none;
+  padding: 5px 10px;
+}
+
+.header-list a {
+  padding: 0 40px;
+}
+
+header span {
+  color: #273c75;
+}
+
+.home:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.about:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.eatshop:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.stay:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 60px;
+  padding: 40px 80px;
+}
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  color:white;
+  background-image: url(/Users/dellaanisha/Desktop/html_lesson/K-tourism.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1.5;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1.2;
+  margin-bottom: 23px;
+}
+
+.btn-wrapper {
+  margin-bottom: 30px;
+}
+
+.signup {
+  background-color: rgb(11, 129, 70);
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: rgb(248, 47, 131);
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: dodgerblue;
+  margin-right: 10px;
+}
+
+.tiktok {
+  background-color: black;
+}
+
+.btn {
+  padding: 12px 15px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 2;
+}
+
+.fa-solid {
+  margin: auto;
+}
+
+.fa-brands {
+  margin: auto;
+}
+
+body {
+  margin: 5%;
+  font-family:"leto";
+}
+
+.lesson-wrapper {
+  height: 1150px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: right;
+  width: 50%;
+}
+
+.lesson-icon {
+  position: relative;
+  height: 250px;
+  width: 30%;
+}
+
+.lesson-icon p {
+  position: bottom;
+  top: 90px;
+  width: 80%;
+  height: 5px;
+  color: black;
+}
+
+.txt-contents {
+  width : 80%;
+  position: static;
+  display: bottom;
+  margin-top: 50px;
+  font-size: 15px;
+  color: black;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom : 1px solid #eee;
+  padding-bottom: 50px;
+  text-align: center;
+  height: 30px;
+}
+
+.message {
+  padding: 20px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #60a3bc;
+  height: 220px;
+}
+
+.footer-logo {
+  font-size: 150px;
+  color: #c23616;
+  float: left;
+  padding: 20px 20px;
+}
+
+.footer-list {
+  float: right;
+  transition: all 0.5s;
+}
+
+.footer-container {
+  float: left;
+  padding: 10px 20px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+span {
+  color: #273c75;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
