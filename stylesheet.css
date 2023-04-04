@@ -1,6 +1,6 @@
 .body {
   margin: 100%;
-  font-family: "Lato";
+  font-family: "Avenir Next";
 }
 
 a {
@@ -8,7 +8,7 @@ a {
 }
 
 header {
-  background-color: #60a3bc;
+  background-color: #dfe6e9;
   height: 120px;
   width: 100%;
 }
@@ -19,14 +19,18 @@ header {
   padding: 20px 40px;
 }
 
-.header-list {
-  float: right;
+.header-list a {
+  line-height: 20px;
+  float: left;
   list-style: none;
-  padding: 5px 10px;
+  padding: 0px 40px;
+  color: #2d3436;
+  display: block;
+  transition: all 0.5s;
 }
 
-.header-list a {
-  padding: 0 40px;
+* {
+  box-sizing: border-box;
 }
 
 header span {
@@ -54,6 +58,20 @@ header span {
   border-radius: 5px;
 }
 
+.transportation:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.travel:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
 .stay:hover {
   background-color: rgba(255, 255, 255, 0.3);
   padding-top: 10px;
@@ -75,14 +93,8 @@ header span {
   border-radius: 5px;
 }
 
-.header-logo {
-  float: left;
-  font-size: 60px;
-  padding: 40px 80px;
-}
-
 .top-wrapper {
-  padding: 200px 0 100px 0;
+  padding: 10px 0 100px 0;
   color:white;
   background-image: url(/Users/dellaanisha/Desktop/html_lesson/K-tourism.jpg);
   background-size: cover;
@@ -147,14 +159,22 @@ header span {
 
 body {
   margin: 5%;
-  font-family:"leto";
+  font-family: Lucida;
 }
 
 .lesson-wrapper {
-  height: 1150px;
+  height: 1300px;
   padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #f7f7f7;
   text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .heading {
@@ -174,25 +194,30 @@ body {
 
 .lesson-icon {
   position: relative;
-  height: 250px;
-  width: 30%;
 }
 
 .lesson-icon p {
   position: bottom;
-  top: 90px;
-  width: 80%;
-  height: 5px;
+  top: 90%;
+  width: 100%;
   color: black;
 }
 
-.txt-contents {
+p {
+  text-align: center;
+}
+
+.text-contents {
   width : 80%;
   position: static;
-  display: bottom;
-  margin-top: 50px;
+  display: inline-block;
+  margin-top: 15px;
   font-size: 15px;
   color: black;
+}
+
+.clear {
+  clear: both;
 }
 
 .heading h3 {
@@ -203,7 +228,13 @@ body {
   border-bottom : 1px solid #eee;
   padding-bottom: 50px;
   text-align: center;
-  height: 30px;
+  height: 50px;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .message {
@@ -220,12 +251,14 @@ body {
 }
 
 .footer {
-  background-color: #60a3bc;
-  height: 220px;
+  height: 240px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #dfe6e9;
 }
 
 .footer-logo {
-  font-size: 150px;
+  font-size: 130px;
   color: #c23616;
   float: left;
   padding: 20px 20px;
@@ -244,11 +277,15 @@ body {
   text-align: center;
 }
 
+footer-container p {
+  font-size: 8px;
+}
+
 span {
   color: #273c75;
 }
 
 li {
   list-style: none;
-  padding: 10px;
+  padding: 8px;
 }
